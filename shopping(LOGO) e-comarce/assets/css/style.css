@@ -1,0 +1,281 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#d16e28;
+    --secondary-color:#de90c5;
+    --color-white: white;
+    --color-black: black;
+    --size-lg:2.125rem;
+    --size-md:1rem;
+    --size-sm:0.875rem;
+
+}
+/* navbar start 
+-----------------------*/
+.navbar{
+    background-color: var(--primary-color) !important; 
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: var(--color-black);
+}
+
+/* navbar end
+-----------------------*/
+/* slider-start 
+-----------------------*/
+.hero-slider .carousel-inner{
+    width: 100%;
+    height: 85vh;
+}
+.hero-slider .carousel-inner .carousel-item{
+    width: 100%;
+    height: 100%;
+}
+.hero-slider .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+.hero-slider .carousel-indicators button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--secondary-color)
+}
+.hero-slider .carousel-indicators button.active{
+    background-color: var(--primary-color) !important;
+}
+.hero-slider .carousel-control-prev .carousel-control-prev-icon{
+    background-color: #d16e28;
+}
+.hero-slider .carousel-control-next .carousel-control-next-icon{
+    background-color: #d16e28;
+}
+/* slider-end
+-----------------------*/
+/* list start */
+.container .row button:hover{
+    background-color: var(--primary-color);
+}
+.container .row .list-group a.active{
+    background-color: #d16e28;
+}
+.container .row .list-group a.active:hover{
+    background-color: #d16e28;
+}
+.container .row .list-group a:hover{
+    background-color: var(--secondary-color);
+    transition: .6s ease-in-out;
+}
+.container .product-card-area .card .card-body .card-title a{
+    text-decoration: none;
+}
+.container .product-card-area .card .card-body .btn{
+    background-color: var(--primary-color);
+}
+.container .product-card-area .card .card-body .btn:hover{
+    color: var(--color-black);
+    background-color: var(--secondary-color);
+}
+.container .product-card-area .card .card-body .rating{
+    color: orange;
+}
+.product-card-area .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+/* list end */
+/* pagination start
+------------------- */
+.pagination .page-item.active a{
+    background-color: var(--primary-color);
+}
+/* pagination start
+-------------------*/
+/* testimonial
+------------------ */
+.testimonial-area .card-item{
+    border: 2px solid var(--primary-color);
+    padding: 30px 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.testimonial-area .card-item .photo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.testimonial-area .row .text{
+    margin-left: 5px;
+}
+.slick-prev::before{
+    color: var(--primary-color) !important;
+}
+.slick-next::after{
+    color: var(--primary-color) !important;
+}
+/* t
+/* testimonial end
+---------------------*/
+
+.signIn-form{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/sky.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+.form-body{
+    width: 35%;
+    border: 1px solid gray;
+    padding: 30px 20px;
+    
+    border-radius: 10px;
+    
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+   
+}
+    
+.form-body a{
+
+    color: rgb(101, 101, 101);
+}
+
+.form-body button{
+    width: 100%;
+    background-color: var(--primary-color);
+    border: none;
+}
+.form-body button:hover{
+    background-color: var(--secondary-color);
+}
+
+
+.signUp-form{
+
+}
+/* Footer Start
+----------------------------*/
+.main-footer{
+    background-color: var(--primary-color);
+}
+
+
+.main-footer h4{
+    color: var(--color-black);
+    padding-bottom: 15px;
+}
+.main-footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.main-footer ul li{
+    line-height: 30px;
+    color: var(--color-black);
+}
+
+.main-footer ul li a{
+    text-decoration: none;
+    color:var(--color-black);
+}
+.main-footer ul li a:hover{
+    padding-left: 10px;
+    transition: .6s;
+}
+
+/* Footer End
+----------------------------*/
+
+
+/* view card start */
+
+.breadcrumb-area{
+   width: 100%;
+   height: 500px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   background-image: url("../images/view cart/2.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   
+}
+.breadcrumb{
+    justify-content: center;
+}
+.container h2{
+    color: white;
+}
+.container .breadcrumb .breadcrumb-item.active{
+    color: white;
+}
+.container .breadcrumb .breadcrumb-item a{
+color: var(--primary-color);
+}
+
+
+
+.container table{
+    border: 1px solid gray;
+}
+.container table thead th{
+    background-color: var(--primary-color);
+    color: var(--color-white);
+}
+
+
+.container tbody tr td img{
+    width: 65px;
+    height: 55px;
+}
+.container tbody tr td button{
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+.container tbody tr td button:hover{
+    color: var(--primary-color);
+}
+
+
+.container .row .button button{
+    width: 150px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    
+}
+.cupon-area{
+    border:1px solid gray;
+}
+.container .row .cupon-area form{
+    margin: 20px 20px !important;
+}
+.container .row .cupon-area ul li{
+    margin: 20px 20px;
+}
+.container .row .cupon-area ul button{
+    width: 90%;
+}
+.container .row button:hover{
+    background-color: var(--secondary-color);
+    transition: .6s ease-in-out;
+}
+
+/* view card end */

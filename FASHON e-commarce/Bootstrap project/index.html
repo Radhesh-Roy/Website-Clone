@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap project</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/fonts/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+</head>
+<body>
+    <!-- header start -->
+    <div class="header p-2">
+    <div class="container">
+        <div class="d-flex justify-content-between">
+            
+         <div class="contact mx-2">  
+            <a href="mailto:radheshroy0011@gmail.com"><i class="bi bi-envelope"></i>radheshroy0011@gmail.com</a>
+            <a href="tel:01789391948" class="mx-3"><i class="bi bi-telephone"></i>01789391948</a>
+    </div> 
+    <div class="social">
+        <a href="https://facebook.com/" target="_blank"> <span><i class="bi bi-facebook mx-2"></i></span></a>
+        <a href="https://www.youtube.com/" target="_blank"><span><i class="bi bi-youtube mx-2"></i></span></a>
+        <a href="https://twitter.com/" targrt="_blank"><span><i class="bi bi-twitter mx-2"></i></span></a>
+        
+    </div>
+        </div>
+
+        
+    </div>
+    </div>
+    
+    
+    <!-- header end -->
+    <!-- navbar start -->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="assets/iamges/logo/stock-trolley-bag-online-shop-logo-designs-template-illustration-graphic-of-shopping-and-shop-free-vector.jpg "width="70px" height="50px" alt="LOGO"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+              </li>
+              <a class="nav-link" href="#" class="btn btn-primary position-absolute" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-bag"><span class="position-relative top-0 start-120 translate-middle badge rounded-pill bg-danger">
+                6
+              </span></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-heart"></i></a>
+              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signin.html">SignIn</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="signup.html">SignUp</a>
+                </li>
+              </ul>
+             
+           
+          </div>
+        </div>
+      </nav>
+
+    <!-- navbar end -->
+    
+    <!-- slider start -->
+
+      <div class="slider-area">
+        
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/iamges/slider/slider 1.jpg" class="d-block w-100" alt="slider1">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/iamges/slider/slider 2.jpg" class="d-block w-100" alt="slider2">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/iamges/slider/slider 3.jpg" class="d-block w-100" alt="slider3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+
+    <!-- slider end -->
+    <!-- list group start -->
+
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                <div class="list-group mt-3">
+                    <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                      The current button
+                    </button>
+                    <button type="button" class="list-group-item list-group-item-action">A second button item</button>
+                    <button type="button" class="list-group-item list-group-item-action">A third button item</button>
+                    <button type="button" class="list-group-item list-group-item-action">A fourth button item</button>
+                    <button type="button" class="list-group-item list-group-item-action">A disabled button item</button>
+                  </div>
+
+                  <div class="list-group mt-3">
+                    <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                      The current button
+                    </button>
+                    <button type="button" class="list-group-item list-group-item-action">A second button item</button>
+                    <button type="button" class="list-group-item list-group-item-action">A third button item</button>
+                    <button type="button" class="list-group-item list-group-item-action">A fourth button item</button>
+                    <button type="button" class="list-group-item list-group-item-action">A disabled button item</button>
+                  </div>
+            </div>
+            <div class="col-lg-9 ">
+                <div class="row" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                    <div class="col-lg-3">
+                        <div class="card mt-3">
+                            <img src="assets/iamges/product/3.jpg" class="card-img-top" alt="shirt">
+                            <div class="card-body">
+                              <h5 class="card-title">Shirt for man</h5>
+                              <h6>1199$ <del>1299$</del></h6>
+                              <div class="rating">
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-half"></i></span>
+                              </div>
+                              <a href="#" class="btn btn-primary"><i class="bi bi-cart4"></i>Add to cart</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mt-3">
+                            <img src="assets/iamges/product/4.jpg" class="card-img-top" alt="shirt">
+                            <div class="card-body">
+                              <h5 class="card-title">Shirt for man</h5>
+                              <h6>1199$ <del>1299$</del></h6>
+                              <div class="rating">
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-half"></i></span>
+                              </div>
+                              <a href="#" class="btn btn-primary"><i class="bi bi-cart4"></i>Add to cart</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mt-3">
+                            <img src="assets/iamges/product/5.jpg" class="card-img-top" alt="shirt">
+                            <div class="card-body">
+                              <h5 class="card-title">Shirt for man</h5>
+                              <h6>1199$ <del>1299$</del></h6>
+                              <div class="rating">
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-half"></i></span>
+                              </div>
+                              <a href="#" class="btn btn-primary"><i class="bi bi-cart4"></i>Add to cart</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mt-3">
+                            <img src="assets/iamges/product/6.jpg" class="card-img-top" alt="shirt">
+                            <div class="card-body">
+                              <h5 class="card-title">Shirt for man</h5>
+                              <h6>1199$ <del>1299$</del></h6>
+                              <div class="rating">
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-half"></i></span>
+                              </div>
+                              <a href="#" class="btn btn-primary"><i class="bi bi-cart4"></i>Add to cart</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mt-3">
+                            <img src="assets/iamges/product/3.jpg" class="card-img-top" alt="shirt">
+                            <div class="card-body">
+                              <h5 class="card-title">Shirt for man</h5>
+                              <h6>1199$ <del>1299$</del></h6>
+                              <div class="rating">
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-half"></i></span>
+                              </div>
+                              <a href="#" class="btn btn-primary"><i class="bi bi-cart4"></i>Add to cart</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mt-3">
+                            <img src="assets/iamges/product/4.jpg" class="card-img-top" alt="shirt">
+                            <div class="card-body">
+                              <h5 class="card-title">Shirt for man</h5>
+                              <h6>1199$ <del>1299$</del></h6>
+                              <div class="rating">
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-half"></i></span>
+                              </div>
+                              <a href="#" class="btn btn-primary"><i class="bi bi-cart4"></i>Add to cart</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mt-3">
+                            <img src="assets/iamges/product/5.jpg" class="card-img-top" alt="shirt">
+                            <div class="card-body">
+                              <h5 class="card-title">Shirt for man</h5>
+                              <h6>1199$ <del>1299$</del></h6>
+                              <div class="rating">
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-half"></i></span>
+                              </div>
+                              <a href="#" class="btn btn-primary"><i class="bi bi-cart4"></i>Add to cart</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mt-3">
+                            <img src="assets/iamges/product/6.jpg" class="card-img-top" alt="shirt">
+                            <div class="card-body">
+                              <h5 class="card-title">Shirt for man</h5>
+                              <h6>1199$ <del>1299$</del></h6>
+                              <div class="rating">
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-half"></i></span>
+                              </div>
+                              <a href="#" class="btn btn-primary"><i class="bi bi-cart4"></i>Add to cart</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mt-3">
+                            <img src="assets/iamges/product/3.jpg" class="card-img-top" alt="shirt">
+                            <div class="card-body">
+                              <h5 class="card-title">Shirt for man</h5>
+                              <h6>1199$ <del>1299$</del></h6>
+                              <div class="rating">
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-half"></i></span>
+                              </div>
+                              <a href="#" class="btn btn-primary"><i class="bi bi-cart4"></i>Add to cart</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mt-3">
+                            <img src="assets/iamges/product/4.jpg" class="card-img-top" alt="shirt">
+                            <div class="card-body">
+                              <h5 class="card-title">Shirt for man</h5>
+                              <h6>1199$ <del>1299$</del></h6>
+                              <div class="rating">
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-half"></i></span>
+                              </div>
+                              <a href="#" class="btn btn-primary"><i class="bi bi-cart4"></i>Add to cart</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mt-3">
+                            <img src="assets/iamges/product/5.jpg" class="card-img-top" alt="shirt">
+                            <div class="card-body">
+                              <h5 class="card-title">Shirt for man</h5>
+                              <h6>1199$ <del>1299$</del></h6>
+                              <div class="rating">
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-half"></i></span>
+                              </div>
+                              <a href="#" class="btn btn-primary"><i class="bi bi-cart4"></i>Add to cart</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mt-3">
+                            <img src="assets/iamges/product/6.jpg" class="card-img-top" alt="shirt">
+                            <div class="card-body">
+                              <h5 class="card-title">Shirt for man</h5>
+                              <h6>1199$ <del>1299$</del></h6>
+                              <div class="rating">
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-fill"></i></span>
+                                <span><i class="bi bi-star-half"></i></span>
+                              </div>
+                              <a href="#" class="btn btn-primary"><i class="bi bi-cart4"></i>Add to cart</a>
+                            </div>
+                          </div>
+                    </div>
+
+                    <!-- pagination start -->
+
+                    <div class="pagination-area">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                              <li class="page-item-prev"><a class="page-link" href="#">Previous</a></li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item-active"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item-next"><a class="page-link" href="#">Next</a></li>
+                            </ul>
+                          </nav>
+                    </div>
+            
+                    <!-- pagination end -->
+                </div>
+            </div>
+        </div>
+      </div>
+
+    <!-- list group end -->
+    <!-- testimonial start -->
+
+     <div class="testimonial-area">
+      <div class="container">
+        <div class="row responsive">
+          <div class="col-lg-6">
+            <div class="card-item mx-3">
+              <div class="d-flex">
+                <div class="image m-4">
+                  <img src="assets/iamges/testimonial/Radhesh.jpeg"width="100px" height="100px" class="rounded-circle" alt="">
+                </div>
+                <div class="name m-4">
+                  <h2>Radhesh Roy</h2>
+                  <span>Web devolper</span>
+                </div>
+                </div>
+                <div class="details m-4">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quasi accusantium minus cumque totam quam atque, fugiat similique repellat sint maxime cum debitis laudantium hic dolores nisi quae iste tenetur, iure molestias, numquam exercitationem! Quasi rerum recusandae earum quaerat minima consequatur quae facere perferendis, voluptates qui magnam odit rem a.</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-6">
+              <div class="card-item mx-3">
+                <div class="d-flex">
+                  <div class="image m-4">
+                    <img src="assets/iamges/testimonial/Radhesh.jpeg"width="100px" height="100px" class="rounded-circle" alt="">
+                  </div>
+                  <div class="name m-4">
+                    <h2>Radhesh Roy</h2>
+                    <span>Web devolper</span>
+                  </div>
+                  </div>
+                  <div class="details m-4">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quasi accusantium minus cumque totam quam atque, fugiat similique repellat sint maxime cum debitis laudantium hic dolores nisi quae iste tenetur, iure molestias, numquam exercitationem! Quasi rerum recusandae earum quaerat minima consequatur quae facere perferendis, voluptates qui magnam odit rem a.</p>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col-lg-6">
+                <div class="card-item mx-3">
+                  <div class="d-flex">
+                    <div class="image m-4">
+                      <img src="assets/iamges/testimonial/Radhesh.jpeg"width="100px" height="100px" class="rounded-circle" alt="">
+                    </div>
+                    <div class="name m-4">
+                      <h2>Radhesh Roy</h2>
+                      <span>Web devolper</span>
+                    </div>
+                    </div>
+                    <div class="details m-4">
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quasi accusantium minus cumque totam quam atque, fugiat similique repellat sint maxime cum debitis laudantium hic dolores nisi quae iste tenetur, iure molestias, numquam exercitationem! Quasi rerum recusandae earum quaerat minima consequatur quae facere perferendis, voluptates qui magnam odit rem a.</p>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="col-lg-6">
+                  <div class="card-item mx-3">
+                    <div class="d-flex">
+                      <div class="image m-4">
+                        <img src="assets/iamges/testimonial/Radhesh.jpeg"width="100px" height="100px" class="rounded-circle" alt="">
+                      </div>
+                      <div class="name m-4">
+                        <h2>Radhesh Roy</h2>
+                        <span>Web devolper</span>
+                      </div>
+                      </div>
+                      <div class="details m-4">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quasi accusantium minus cumque totam quam atque, fugiat similique repellat sint maxime cum debitis laudantium hic dolores nisi quae iste tenetur, iure molestias, numquam exercitationem! Quasi rerum recusandae earum quaerat minima consequatur quae facere perferendis, voluptates qui magnam odit rem a.</p>
+                      </div>
+                    </div>
+                    
+                  </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+    <!-- testimonial end -->
+    <!-- offcanvas start -->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Your Cart</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="d-flex gap-4">
+      <div class="image">
+        <img src="assets/iamges/product/3.jpg" width="100px" height="100px" class="img-fluid border" alt="">
+      </div>
+      <div class="name">
+        <h4>Shirt for man</h4>
+        <span>price:1199$</span>
+      </div>
+      <div>
+      <button src="submit" style="border: none; background-color: transparent;"><i class="bi bi-x-circle"></i></button> 
+    </div>
+    </div> <hr>
+    
+    <div class="d-flex gap-4">
+      <div class="image">
+        <img src="assets/iamges/product/4.jpg" width="100px" height="100px" class="img-fluid border" alt="">
+      </div>
+      <div class="name">
+        <h4>Shirt for man</h4>
+        <span>price:1199$</span>
+      </div>
+      <div>
+      <button src="submit" style="border: none; background-color: transparent;"><i class="bi bi-x-circle"></i></button> 
+    </div>
+    </div> <hr>
+
+    <div class="d-flex gap-4">
+      <div class="image">
+        <img src="assets/iamges/product/5.jpg" width="100px" height="100px" class="img-fluid border" alt="">
+      </div>
+      <div class="name">
+        <h4>Shirt for man</h4>
+        <span>price:1199$</span>
+      </div>
+      <div>
+      <button src="submit" style="border: none; background-color: transparent;"><i class="bi bi-x-circle"></i></button> 
+    </div>
+    </div> <hr>
+
+    <div class="d-flex gap-4">
+      <div class="image">
+        <img src="assets/iamges/product/6.jpg" width="100px" height="100px" class="img-fluid border" alt="">
+      </div>
+      <div class="name">
+        <h4>Shirt for man</h4>
+        <span>price:1199$</span>
+      </div>
+      <div>
+      <button src="submit" style="border: none; background-color: transparent;"><i class="bi bi-x-circle"></i></button> 
+    </div>
+    </div> <hr>
+
+    <div class="d-flex gap-4">
+      <div class="image">
+        <img src="assets/iamges/product/3.jpg" width="100px" height="100px" class="img-fluid border" alt="">
+      </div>
+      <div class="name">
+        <h4>Shirt for man</h4>
+        <span>price:1199$</span>
+      </div>
+      <div>
+      <button type="submit" style="border: none; background-color: transparent;"><i class="bi bi-x-circle"></i></button> 
+    </div>
+    </div> <hr>
+
+    <div class="d-flex gap-4">
+      <div class="image">
+        <img src="assets/iamges/product/4.jpg" width="100px" height="100px" class="img-fluid border" alt="">
+      </div>
+      <div class="name">
+        <h4>Shirt for man</h4>
+        <span>price:1199$</span>
+      </div>
+      <div>
+      <button src="submit" style="border: none; background-color: transparent;"><i class="bi bi-x-circle"></i></button> 
+    </div>
+    </div> <hr>
+
+    <div class="d-flex gap-4">
+      <div class="image">
+        <img src="assets/iamges/product/5.jpg" width="100px" height="100px" class="img-fluid border" alt="">
+      </div>
+      <div class="name">
+        <h4>Shirt for man</h4>
+        <span>price:1199$</span>
+      </div>
+      <div>
+      <button src="submit" style="border: none; background-color: transparent;"><i class="bi bi-x-circle"></i></button> 
+    </div>
+    </div> <hr>
+    <div class="button m-4">
+      <button type="submit" class="p-2">View Cart</button>
+    <button type="submit" class="p-2">Continue Shopping</button>
+    </div>
+  </div>
+</div>
+    <!-- offcanvas end -->
+
+    <!-- footer start -->
+
+    <div class="footer-area pt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="address">
+              
+              <ul>
+                <h4>Address</h4><hr>
+                <li><a href=""><i class="bi bi-house-door-fill mx-1"></i>Dhaka,Bangladesh</a></li>
+                <li><a href=""><i class="bi bi-telephone-fill mx-1"></i>01789391948</a></li>
+                
+              </ul>
+            </div>
+            <div class="peyment-card">
+              
+            </div>
+            
+          </div>
+          <div class="col-lg-3">
+            
+            <ul>
+              <h3>Explore</h3><hr>
+              <li><a href="">Search</a></li>
+              <li><a href="">About Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            
+            <ul>
+              <h2>About</h2> <hr>
+              <li><a href="" class="text-decoration-none">Delivary</a></li>
+              <li><a href="">Returns</a></li>
+              <li><a href="">Terms</a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <div class="social-link">
+              <h4>Follow Us</h4> <hr>
+              <a href=""><span><i class="bi bi-facebook  mx-2"></i></span></a>
+              <a href=""><span><i class="bi bi-youtube mx-2"></i></span></a>
+              <a href=""><span><i class="bi bi-twitter mx-2"></i></span></a>
+              <a href=""><span><i class="bi bi-instagram mx-2"></i></span></a>
+            </div>
+          </div>
+        </div><hr>
+        <div class="text-center">
+          All copyrite &copy; by <a href="">Radhesh Roy</a>
+        </div>
+
+      </div>
+    </div>
+
+    
+    <!-- footer end -->
+    <script src="assets/js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    
+
+    <script src="assets/js/min.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
